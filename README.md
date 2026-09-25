@@ -38,16 +38,16 @@ _AI session 365-day totals cover 126 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 20,559 | 76.2M | 3.3M | 2,191.2M | 96.6% | 484 | 165.8h |
-| gpt-5.6-terra | 16,573 | 105.5M | 3.7M | 1,175.4M | 91.8% | 1,164 | 80.1h |
+| gpt-5.6-sol | 20,535 | 76.0M | 3.3M | 2,186.7M | 96.6% | 484 | 165.6h |
+| gpt-5.6-terra | 16,557 | 105.4M | 3.7M | 1,175.1M | 91.8% | 1,161 | 80.1h |
 | gpt-6-astra | 6,491 | 27.2M | 1.1M | 1,324.9M | 98.0% | 81 | 52.9h |
-| gpt-5.6-luna | 2,419 | 25.1M | 462K | 220.4M | 89.8% | 782 | 9.6h |
-| gpt-6-sol | 2,043 | 6.8M | 332K | 302.1M | 97.8% | 66 | 10.3h |
+| gpt-5.6-luna | 2,404 | 25.0M | 457K | 219.4M | 89.8% | 781 | 9.4h |
+| gpt-6-sol | 2,170 | 7.3M | 356K | 317.9M | 97.7% | 66 | 10.8h |
 | gpt-5.6-sol-fast | 1,754 | 4.4M | 308K | 255.3M | 98.3% | 1 | 8.1h |
 | gpt-6-luna | 10 | 157K | 905 | 201K | 56.2% | 4 | 0.0h |
-| **Total** | **49,849** | **245.6M** | **9.3M** | **5,469.8M** | **95.7%** | **2,569** | **326.8h** |
+| **Total** | **49,921** | **245.7M** | **9.3M** | **5,479.8M** | **95.7%** | **2,565** | **327.0h** |
 
-_5,724.9M total tokens processed. 95.7% cache hit rate._
+_5,734.9M total tokens processed. 95.7% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -58,15 +58,15 @@ _5,724.9M total tokens processed. 95.7% cache hit rate._
 | gpt-5.6-terra | 24,914 | 156.0M | 5.7M | 1,772.7M | 91.9% | 1,820 | 125.1h |
 | gpt-6-astra | 6,491 | 27.2M | 1.1M | 1,324.9M | 98.0% | 81 | 52.9h |
 | gpt-5.6-luna | 4,096 | 43.1M | 755K | 318.7M | 88.1% | 1,590 | 17.2h |
-| gpt-6-sol | 2,043 | 6.8M | 332K | 302.1M | 97.8% | 66 | 10.3h |
+| gpt-6-sol | 2,170 | 7.3M | 356K | 317.9M | 97.7% | 66 | 10.8h |
 | gpt-5.6-sol-fast | 1,754 | 4.4M | 308K | 255.3M | 98.3% | 1 | 8.1h |
 | gpt-5.4-mini | 871 | 5.2M | 96K | 41.6M | 88.8% | 239 | 4.3h |
 | big-pickle | 20 | 66K | 2K | 389K | 85.4% | 2 | 0.0h |
 | gpt-5.5-pro | 16 | 0 | 0 | 0 | 0.0% | 6 | 0.0h |
 | gpt-6-luna | 10 | 157K | 905 | 201K | 56.2% | 4 | 0.0h |
-| **Total** | **186,286** | **902.8M** | **36.0M** | **18,444.3M** | **95.3%** | **7,802** | **1,379.8h** |
+| **Total** | **186,413** | **903.3M** | **36.0M** | **18,460.2M** | **95.3%** | **7,802** | **1,380.4h** |
 
-_19,383.2M total tokens processed. 95.3% cache hit rate._
+_19,399.6M total tokens processed. 95.3% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -99,7 +99,7 @@ _19,383.2M total tokens processed. 95.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-25 08:28 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-25 09:09 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
