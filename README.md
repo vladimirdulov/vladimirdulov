@@ -38,21 +38,21 @@ _AI session 365-day totals cover 1 days of local assistant session history (not 
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 7,108 | 21.3M | 1.2M | 652.1M | 0 | 96.8% | 204 | 30.2h |
-| gpt-6-luna | 29 | 484K | 12K | 994K | 0 | 67.3% | 4 | 0.1h |
-| **Total** | **7,137** | **21.8M** | **1.2M** | **653.1M** | **0** | **96.8%** | **205** | **30.4h** |
+| gpt-6.1-sol | 7,156 | 21.4M | 1.2M | 659.9M | 0 | 96.9% | 204 | 30.4h |
+| gpt-6-luna | 33 | 549K | 13K | 1.1M | 0 | 67.8% | 5 | 0.1h |
+| **Total** | **7,189** | **21.9M** | **1.2M** | **661.0M** | **0** | **96.8%** | **205** | **30.5h** |
 
-_676.1M total tokens processed. 96.8% cache hit rate._
+_684.2M total tokens processed. 96.8% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 7,108 | 21.3M | 1.2M | 652.1M | 0 | 96.8% | 204 | 30.2h |
-| gpt-6-luna | 29 | 484K | 12K | 994K | 0 | 67.3% | 4 | 0.1h |
-| **Total** | **7,137** | **21.8M** | **1.2M** | **653.1M** | **0** | **96.8%** | **205** | **30.4h** |
+| gpt-6.1-sol | 7,156 | 21.4M | 1.2M | 659.9M | 0 | 96.9% | 204 | 30.4h |
+| gpt-6-luna | 33 | 549K | 13K | 1.1M | 0 | 67.8% | 5 | 0.1h |
+| **Total** | **7,189** | **21.9M** | **1.2M** | **661.0M** | **0** | **96.8%** | **205** | **30.5h** |
 
-_676.1M total tokens processed. 96.8% cache hit rate._
+_684.2M total tokens processed. 96.8% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -85,7 +85,7 @@ _676.1M total tokens processed. 96.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-09 17:20 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-09 17:53 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
