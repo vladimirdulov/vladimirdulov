@@ -38,23 +38,23 @@ _AI session 365-day totals cover 2 days of local assistant session history (not 
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 8,015 | 23.5M | 1.3M | 753.8M | 0 | 97.0% | 229 | 34.9h |
+| gpt-6.1-sol | 8,029 | 23.5M | 1.3M | 756.7M | 0 | 97.0% | 229 | 35.0h |
 | gpt-6-luna | 33 | 549K | 13K | 1.1M | 0 | 67.8% | 5 | 0.1h |
 | gpt-6-astra | 1 | 18K | 394 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **8,049** | **24.1M** | **1.4M** | **754.9M** | **0** | **96.9%** | **231** | **35.0h** |
+| **Total** | **8,063** | **24.1M** | **1.4M** | **757.9M** | **0** | **96.9%** | **231** | **35.1h** |
 
-_780.4M total tokens processed. 96.9% cache hit rate._
+_783.4M total tokens processed. 96.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 8,015 | 23.5M | 1.3M | 753.8M | 0 | 97.0% | 229 | 34.9h |
+| gpt-6.1-sol | 8,029 | 23.5M | 1.3M | 756.7M | 0 | 97.0% | 229 | 35.0h |
 | gpt-6-luna | 33 | 549K | 13K | 1.1M | 0 | 67.8% | 5 | 0.1h |
 | gpt-6-astra | 1 | 18K | 394 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **8,049** | **24.1M** | **1.4M** | **754.9M** | **0** | **96.9%** | **231** | **35.0h** |
+| **Total** | **8,063** | **24.1M** | **1.4M** | **757.9M** | **0** | **96.9%** | **231** | **35.1h** |
 
-_780.4M total tokens processed. 96.9% cache hit rate._
+_783.4M total tokens processed. 96.9% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -87,7 +87,7 @@ _780.4M total tokens processed. 96.9% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-10 08:22 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-10 08:53 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
