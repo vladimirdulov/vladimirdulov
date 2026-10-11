@@ -23,8 +23,8 @@
 | Worker-classified human attention | 0.7h | 6.2h | 6.2h | 6.2h |
 | Worker/headless AI generation | 9.5h | 41.7h | 41.7h | 41.7h |
 | Additive observed work | 10.5h | 49.9h | 49.9h | 49.9h |
-| Interactive sessions | 11 | 18 | 18 | 18 |
-| Worker sessions | 105 | 314 | 314 | 314 |
+| Interactive sessions | 12 | 19 | 19 | 19 |
+| Worker sessions | 104 | 313 | 313 | 313 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -87,7 +87,7 @@ _1,162.2M total tokens processed. 96.9% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-11 08:42 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-11 08:53 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
