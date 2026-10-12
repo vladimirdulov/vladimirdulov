@@ -38,25 +38,25 @@ _AI session 365-day totals cover 4 days of local assistant session history (not 
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 16,162 | 46.5M | 2.8M | 1,552.7M | 0 | 97.1% | 398 | 70.2h |
-| gpt-6-luna | 41 | 1.2M | 26K | 1.1M | 0 | 48.5% | 12 | 0.2h |
+| gpt-6.1-sol | 16,176 | 47.0M | 2.8M | 1,554.9M | 0 | 97.1% | 398 | 70.4h |
+| gpt-6-luna | 42 | 1.3M | 28K | 1.1M | 0 | 46.8% | 13 | 0.2h |
 | gpt-5.6-sol | 6 | 104K | 759 | 384K | 0 | 78.6% | 1 | 0.1h |
 | gpt-6-astra | 1 | 18K | 394 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **16,210** | **47.8M** | **2.8M** | **1,554.3M** | **0** | **97%** | **400** | **70.4h** |
+| **Total** | **16,225** | **48.4M** | **2.8M** | **1,556.5M** | **0** | **97%** | **400** | **70.6h** |
 
-_1,605.0M total tokens processed. 97% cache hit rate._
+_1,607.8M total tokens processed. 97% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 16,162 | 46.5M | 2.8M | 1,552.7M | 0 | 97.1% | 398 | 70.2h |
-| gpt-6-luna | 41 | 1.2M | 26K | 1.1M | 0 | 48.5% | 12 | 0.2h |
+| gpt-6.1-sol | 16,176 | 47.0M | 2.8M | 1,554.9M | 0 | 97.1% | 398 | 70.4h |
+| gpt-6-luna | 42 | 1.3M | 28K | 1.1M | 0 | 46.8% | 13 | 0.2h |
 | gpt-5.6-sol | 6 | 104K | 759 | 384K | 0 | 78.6% | 1 | 0.1h |
 | gpt-6-astra | 1 | 18K | 394 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **16,210** | **47.8M** | **2.8M** | **1,554.3M** | **0** | **97%** | **400** | **70.4h** |
+| **Total** | **16,225** | **48.4M** | **2.8M** | **1,556.5M** | **0** | **97%** | **400** | **70.6h** |
 
-_1,605.0M total tokens processed. 97% cache hit rate._
+_1,607.8M total tokens processed. 97% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -89,7 +89,7 @@ _1,605.0M total tokens processed. 97% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-12 05:36 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-12 05:55 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
