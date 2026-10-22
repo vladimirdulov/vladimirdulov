@@ -17,22 +17,22 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 168h | 310.3h | ~7551h* |
+| Screen time (Linux) | 14.6h | 158.6h | 324.9h | ~7412h* |
 | Interactive human attention | 0.0h | 1.0h | 1.0h | 1.0h |
-| Interactive AI generation | 2.2h | 5.3h | 9.0h | 9.0h |
-| Worker-classified human attention | 0.2h | 2.0h | 13.4h | 13.4h |
-| Worker/headless AI generation | 6.1h | 63.3h | 152.5h | 152.5h |
-| Additive observed work | 8.5h | 71.6h | 175.8h | 175.8h |
-| Interactive sessions | 18 | 45 | 69 | 69 |
-| Worker sessions | 102 | 506 | 989 | 989 |
+| Interactive AI generation | 1.9h | 6.8h | 10.8h | 10.8h |
+| Worker-classified human attention | 0.0h | 2.0h | 13.4h | 13.4h |
+| Worker/headless AI generation | 3.8h | 46.9h | 156.3h | 156.3h |
+| Additive observed work | 5.7h | 56.7h | 181.5h | 181.5h |
+| Interactive sessions | 7 | 42 | 69 | 69 |
+| Worker sessions | 50 | 446 | 989 | 989 |
 
-_Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
+_Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 13 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 14 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
@@ -89,7 +89,7 @@ _3,559.9M total tokens processed. 96.9% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-21 22:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-22 00:17 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
