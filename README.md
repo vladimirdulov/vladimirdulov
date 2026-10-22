@@ -24,7 +24,7 @@
 | Worker/headless AI generation | 3.8h | 46.9h | 156.3h | 156.3h |
 | Additive observed work | 5.7h | 56.7h | 181.5h | 181.5h |
 | Interactive sessions | 7 | 42 | 69 | 69 |
-| Worker sessions | 59 | 455 | 998 | 998 |
+| Worker sessions | 61 | 457 | 1,000 | 1,000 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -38,25 +38,25 @@ _AI session 365-day totals cover 14 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 37,449 | 105.8M | 6.6M | 3,439.8M | 0 | 97.0% | 1,050 | 165.0h |
+| gpt-6.1-sol | 37,485 | 105.9M | 6.6M | 3,442.8M | 0 | 97.0% | 1,052 | 165.1h |
 | gpt-6-luna | 206 | 2.8M | 66K | 5.6M | 0 | 66.1% | 34 | 0.7h |
 | gpt-5.6-sol | 68 | 790K | 17K | 9.4M | 0 | 92.3% | 2 | 1.1h |
 | gpt-6-astra | 1 | 18K | 394 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **37,724** | **109.5M** | **6.7M** | **3,454.9M** | **0** | **96.9%** | **1,066** | **166.8h** |
+| **Total** | **37,760** | **109.6M** | **6.7M** | **3,457.9M** | **0** | **96.9%** | **1,068** | **166.9h** |
 
-_3,571.1M total tokens processed. 96.9% cache hit rate._
+_3,574.2M total tokens processed. 96.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 37,449 | 105.8M | 6.6M | 3,439.8M | 0 | 97.0% | 1,050 | 165.0h |
+| gpt-6.1-sol | 37,485 | 105.9M | 6.6M | 3,442.8M | 0 | 97.0% | 1,052 | 165.1h |
 | gpt-6-luna | 206 | 2.8M | 66K | 5.6M | 0 | 66.1% | 34 | 0.7h |
 | gpt-5.6-sol | 68 | 790K | 17K | 9.4M | 0 | 92.3% | 2 | 1.1h |
 | gpt-6-astra | 1 | 18K | 394 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **37,724** | **109.5M** | **6.7M** | **3,454.9M** | **0** | **96.9%** | **1,066** | **166.8h** |
+| **Total** | **37,760** | **109.6M** | **6.7M** | **3,457.9M** | **0** | **96.9%** | **1,068** | **166.9h** |
 
-_3,571.1M total tokens processed. 96.9% cache hit rate._
+_3,574.2M total tokens processed. 96.9% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -89,7 +89,7 @@ _3,571.1M total tokens processed. 96.9% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-22 09:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-22 10:17 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
