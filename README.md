@@ -17,14 +17,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 142.3h | 356.6h | ~7231h* |
-| Interactive human attention | 4.1h | 6.4h | 6.4h | 6.4h |
-| Interactive AI generation | 8.9h | 19.4h | 23.8h | 23.8h |
-| Worker-classified human attention | 0.9h | 2.5h | 14.3h | 14.3h |
-| Worker/headless AI generation | 15.0h | 63.9h | 183.6h | 183.6h |
-| Additive observed work | 28.9h | 92.2h | 228.1h | 228.1h |
-| Interactive sessions | 27 | 75 | 107 | 107 |
-| Worker sessions | 285 | 816 | 1,418 | 1,418 |
+| Screen time (Linux) | 24h | 142.3h | 380.6h | ~7231h* |
+| Interactive human attention | 3.1h | 9.6h | 9.6h | 9.6h |
+| Interactive AI generation | 11.6h | 30.4h | 35.4h | 35.4h |
+| Worker-classified human attention | 1.7h | 3.9h | 16.1h | 16.1h |
+| Worker/headless AI generation | 11.9h | 68.4h | 195.5h | 195.5h |
+| Additive observed work | 28.4h | 112.2h | 256.5h | 256.5h |
+| Interactive sessions | 9 | 70 | 107 | 107 |
+| Worker sessions | 130 | 741 | 1,419 | 1,419 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -32,31 +32,31 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 16 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 17 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 53,672 | 147.5M | 9.7M | 5,119.8M | 0 | 97.2% | 1,431 | 227.7h |
+| gpt-6.1-sol | 53,681 | 147.5M | 9.7M | 5,120.1M | 0 | 97.2% | 1,432 | 227.7h |
 | gpt-6-luna | 371 | 6.3M | 139K | 9.4M | 0 | 60.0% | 118 | 1.0h |
 | gpt-5.6-sol | 68 | 790K | 17K | 9.4M | 0 | 92.3% | 2 | 1.1h |
 | gpt-6-astra | 1 | 18K | 394 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **54,112** | **154.6M** | **9.9M** | **5,138.8M** | **0** | **97.1%** | **1,524** | **229.8h** |
+| **Total** | **54,121** | **154.7M** | **9.9M** | **5,139.0M** | **0** | **97.1%** | **1,525** | **229.8h** |
 
-_5,303.4M total tokens processed. 97.1% cache hit rate._
+_5,303.7M total tokens processed. 97.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 53,672 | 147.5M | 9.7M | 5,119.8M | 0 | 97.2% | 1,431 | 227.7h |
+| gpt-6.1-sol | 53,681 | 147.5M | 9.7M | 5,120.1M | 0 | 97.2% | 1,432 | 227.7h |
 | gpt-6-luna | 371 | 6.3M | 139K | 9.4M | 0 | 60.0% | 118 | 1.0h |
 | gpt-5.6-sol | 68 | 790K | 17K | 9.4M | 0 | 92.3% | 2 | 1.1h |
 | gpt-6-astra | 1 | 18K | 394 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **54,112** | **154.6M** | **9.9M** | **5,138.8M** | **0** | **97.1%** | **1,524** | **229.8h** |
+| **Total** | **54,121** | **154.7M** | **9.9M** | **5,139.0M** | **0** | **97.1%** | **1,525** | **229.8h** |
 
-_5,303.4M total tokens processed. 97.1% cache hit rate._
+_5,303.7M total tokens processed. 97.1% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -89,7 +89,7 @@ _5,303.4M total tokens processed. 97.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-24 23:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-25 00:17 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
