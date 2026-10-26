@@ -24,7 +24,7 @@
 | Worker/headless AI generation | 18.2h | 80.8h | 213.7h | 213.7h |
 | Additive observed work | 28.1h | 132.1h | 284.6h | 284.6h |
 | Interactive sessions | 21 | 80 | 126 | 126 |
-| Worker sessions | 202 | 867 | 1,620 | 1,620 |
+| Worker sessions | 208 | 873 | 1,626 | 1,626 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -38,25 +38,25 @@ _AI session 365-day totals cover 18 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 62,247 | 164.3M | 11.3M | 5,984.7M | 0 | 97.3% | 1,611 | 254.3h |
-| gpt-6-luna | 579 | 10.0M | 291K | 21.2M | 0 | 67.8% | 169 | 1.4h |
+| gpt-6.1-sol | 62,425 | 164.6M | 11.4M | 5,998.4M | 0 | 97.3% | 1,616 | 254.7h |
+| gpt-6-luna | 580 | 10.1M | 291K | 21.2M | 0 | 67.8% | 170 | 1.4h |
 | gpt-5.6-sol | 68 | 790K | 17K | 9.4M | 0 | 92.3% | 2 | 1.1h |
 | gpt-6-astra | 1 | 18K | 394 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **62,895** | **175.2M** | **11.6M** | **6,015.4M** | **0** | **97.2%** | **1,745** | **256.8h** |
+| **Total** | **63,074** | **175.5M** | **11.7M** | **6,029.1M** | **0** | **97.2%** | **1,751** | **257.2h** |
 
-_6,202.3M total tokens processed. 97.2% cache hit rate._
+_6,216.4M total tokens processed. 97.2% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 62,247 | 164.3M | 11.3M | 5,984.7M | 0 | 97.3% | 1,611 | 254.3h |
-| gpt-6-luna | 579 | 10.0M | 291K | 21.2M | 0 | 67.8% | 169 | 1.4h |
+| gpt-6.1-sol | 62,425 | 164.6M | 11.4M | 5,998.4M | 0 | 97.3% | 1,616 | 254.7h |
+| gpt-6-luna | 580 | 10.1M | 291K | 21.2M | 0 | 67.8% | 170 | 1.4h |
 | gpt-5.6-sol | 68 | 790K | 17K | 9.4M | 0 | 92.3% | 2 | 1.1h |
 | gpt-6-astra | 1 | 18K | 394 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **62,895** | **175.2M** | **11.6M** | **6,015.4M** | **0** | **97.2%** | **1,745** | **256.8h** |
+| **Total** | **63,074** | **175.5M** | **11.7M** | **6,029.1M** | **0** | **97.2%** | **1,751** | **257.2h** |
 
-_6,202.3M total tokens processed. 97.2% cache hit rate._
+_6,216.4M total tokens processed. 97.2% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -89,7 +89,7 @@ _6,202.3M total tokens processed. 97.2% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-26 01:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-26 02:17 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
