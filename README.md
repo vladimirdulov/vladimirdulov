@@ -24,7 +24,7 @@
 | Worker/headless AI generation | 36.1h | 177.0h | 445.8h | 487.5h |
 | Additive observed work | 46.5h | 238.4h | 884.7h | 934.6h |
 | Interactive sessions | 2 | 15 | 184 | 194 |
-| Worker sessions | 310 | 1,332 | 3,487 | 3,736 |
+| Worker sessions | 317 | 1,339 | 3,494 | 3,743 |
 
 _Screen time from linux-input-activity:idle-cutoff-300s; collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-04 (3.0 of 28 days sampled); earlier days are not counted._
 
@@ -38,38 +38,46 @@ _AI session 365-day totals cover 31 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 145,158 | 361.7M | 26.5M | 15,028.3M | 0 | 97.6% | 3,212 | 584.2h |
-| gpt-6.1-terra | 1,661 | 9.2M | 250K | 132.4M | 0 | 93.5% | 100 | 5.6h |
-| gpt-6-luna | 1,567 | 33.0M | 882K | 58.7M | 0 | 64.0% | 593 | 6.5h |
+| gpt-6.1-sol | 144,826 | 361.0M | 26.5M | 14,999.5M | 0 | 97.6% | 3,205 | 583.0h |
+| gpt-6.1-terra | 1,697 | 9.4M | 254K | 134.3M | 0 | 93.4% | 103 | 5.7h |
+| gpt-6-luna | 1,570 | 33.0M | 882K | 58.8M | 0 | 64.0% | 596 | 6.5h |
 | gpt-5.6-sol | 68 | 790K | 17K | 9.4M | 0 | 92.3% | 2 | 1.1h |
 | gpt-6-astra | 5 | 95K | 2K | 0 | 0 | 0.0% | 5 | 0.0h |
 | claude-opus-5-5 | 4 | 0 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
-| **Total** | **148,463** | **404.9M** | **27.7M** | **15,229.0M** | **0** | **97.4%** | **3,777** | **597.4h** |
+| **Total** | **148,170** | **404.4M** | **27.6M** | **15,202.1M** | **0** | **97.4%** | **3,775** | **596.3h** |
 
-_15,661.7M total tokens processed. 97.4% cache hit rate._
+_15,634.2M total tokens processed. 97.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 150,134 | 376.9M | 27.4M | 15,485.4M | 0 | 97.6% | 3,350 | 606.4h |
-| gpt-6.1-terra | 1,661 | 9.2M | 250K | 132.4M | 0 | 93.5% | 100 | 5.6h |
-| gpt-6-luna | 1,596 | 33.5M | 895K | 59.7M | 0 | 64.1% | 597 | 6.6h |
+| gpt-6.1-sol | 150,177 | 377.0M | 27.4M | 15,488.3M | 0 | 97.6% | 3,352 | 606.5h |
+| gpt-6.1-terra | 1,697 | 9.4M | 254K | 134.3M | 0 | 93.4% | 103 | 5.7h |
+| gpt-6-luna | 1,599 | 33.5M | 895K | 59.8M | 0 | 64.0% | 600 | 6.7h |
 | gpt-5.6-sol | 68 | 790K | 17K | 9.4M | 0 | 92.3% | 2 | 1.1h |
 | gpt-6-astra | 5 | 95K | 2K | 0 | 0 | 0.0% | 5 | 0.0h |
 | claude-opus-5-5 | 4 | 0 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
-| **Total** | **153,468** | **420.6M** | **28.5M** | **15,687.0M** | **0** | **97.4%** | **3,916** | **619.8h** |
+| **Total** | **153,550** | **420.9M** | **28.5M** | **15,692.0M** | **0** | **97.4%** | **3,923** | **619.9h** |
 
-_16,136.3M total tokens processed. 97.4% cache hit rate._
+_16,141.5M total tokens processed. 97.4% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
 ## Projects
 
+- **[brandlight-brand-assets](https://github.com/brandlight/brandlight-brand-assets)** (brandlight) -- Brandlight Brands Assets
 - **[domofon-control](https://github.com/vladimirdulov/domofon-control)** -- No description
 - **[eventslog-parser](https://github.com/vladimirdulov/eventslog-parser)** -- No description
 - **[keetvibe](https://github.com/vladimirdulov/keetvibe)** -- keetvibe a webinar/live streaming platform
 - **[metrics](https://github.com/vladimirdulov/metrics)** -- No description
+- **[seoproanalytics](https://github.com/wpallstars/seoproanalytics)** (wpallstars) -- Actionable analytics: connect your content to the data that shows you how to grow. Private stats, search rankings and sales, no cookies.
+- **[seoprocookieconsent](https://github.com/wpallstars/seoprocookieconsent)** (wpallstars) -- SEO Pro Cookie Consent: the simplest, lightest cookie consent for WordPress. Blocks scripts until consent, geo-aware rules, themed embeds, editable policies. Free.
+- **[seoprostack](https://github.com/wpallstars/seoprostack)** (wpallstars) -- SEO Pro Stack: opt-in WordPress admin and workflow features plus curated plugin, theme, hosting and tool recommendations.
+- **[study](https://github.com/dbp-learn/study)** (dbp-learn) -- No description
+- **[task-manager](https://github.com/dbp-learn/task-manager)** (dbp-learn) -- tasks from learn.dualboot.ru
+- **[wp-fix-plugin-does-not-exist-notices](https://github.com/wpallstars/wp-fix-plugin-does-not-exist-notices)** (wpallstars) -- Fix the WordPress "Plugin file does not exist" / "has been deactivated due to an error" message. A small plugin that explains it on the Plugins screen and cleans up what deleted plugins leave behind.
+- **[wp-plugin-starter-template-for-ai-coding](https://github.com/wpallstars/wp-plugin-starter-template-for-ai-coding)** (wpallstars) -- A WordPress plugin starter template for coding with AI IDEs, like; Claude Code, Codex, Cursor, etc. aidevops.sh recommended
 <!-- PROJECTS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -96,7 +104,7 @@ _16,136.3M total tokens processed. 97.4% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-08 02:20 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-08 03:20 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
