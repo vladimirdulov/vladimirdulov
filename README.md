@@ -17,16 +17,16 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 4.2h | 14h | 14h | unavailable |
+| Input activity (Linux) | 4.2h | 14h | 14h | unavailable |
 | Interactive human attention | 6.1h | 27.9h | 72.0h | 72.0h |
 | Interactive AI generation | 15.6h | 38.9h | 359.1h | 362.2h |
 | Worker-classified human attention | 0.0h | 17.7h | 31.6h | 41.9h |
 | Worker/headless AI generation | 6.8h | 170.1h | 426.1h | 503.1h |
 | Additive observed work | 28.5h | 251.7h | 884.4h | 974.9h |
 | Interactive sessions | 9 | 24 | 183 | 204 |
-| Worker sessions | 224 | 1,509 | 3,690 | 4,102 |
+| Worker sessions | 231 | 1,516 | 3,697 | 4,109 |
 
-_Screen time from linux-input-activity:idle-cutoff-300s; collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-04 (5.0 of 28 days sampled); earlier days are not counted._
+_Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-04 (5.0 of 28 days sampled); earlier days are not counted. Latest sample measured: terminal input only; no desktop session on this host._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
@@ -38,29 +38,29 @@ _AI session 365-day totals cover 33 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 142,731 | 353.3M | 26.2M | 14,950.1M | 0 | 97.7% | 3,105 | 579.9h |
-| gpt-6.1-terra | 4,066 | 19.2M | 573K | 273.7M | 0 | 93.4% | 251 | 13.9h |
-| gpt-6-luna | 2,101 | 39.3M | 989K | 99.1M | 0 | 71.6% | 730 | 8.7h |
+| gpt-6.1-sol | 142,553 | 352.4M | 26.1M | 14,933.4M | 0 | 97.7% | 3,103 | 579.2h |
+| gpt-6.1-terra | 4,098 | 19.4M | 578K | 275.1M | 0 | 93.4% | 255 | 14.0h |
+| gpt-6-luna | 2,104 | 39.2M | 987K | 99.2M | 0 | 71.7% | 730 | 8.7h |
 | gpt-5.6-sol | 62 | 685K | 16K | 9.1M | 0 | 93.0% | 1 | 1.0h |
 | claude-opus-5-5 | 8 | 0 | 0 | 0 | 0 | 0.0% | 8 | 0.0h |
 | gpt-6-astra | 4 | 76K | 2K | 0 | 0 | 0.0% | 4 | 0.0h |
-| **Total** | **148,972** | **412.6M** | **27.7M** | **15,332.1M** | **0** | **97.4%** | **3,940** | **603.6h** |
+| **Total** | **148,829** | **411.8M** | **27.7M** | **15,316.9M** | **0** | **97.4%** | **3,943** | **603.1h** |
 
-_15,772.5M total tokens processed. 97.4% cache hit rate._
+_15,756.5M total tokens processed. 97.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 156,991 | 393.4M | 28.7M | 16,301.4M | 0 | 97.6% | 3,449 | 638.9h |
-| gpt-6.1-terra | 4,066 | 19.2M | 573K | 273.7M | 0 | 93.4% | 251 | 13.9h |
-| gpt-6-luna | 2,138 | 40.2M | 1.0M | 100.3M | 0 | 71.4% | 739 | 8.9h |
+| gpt-6.1-sol | 157,031 | 393.5M | 28.7M | 16,304.0M | 0 | 97.6% | 3,451 | 639.0h |
+| gpt-6.1-terra | 4,098 | 19.4M | 578K | 275.1M | 0 | 93.4% | 255 | 14.0h |
+| gpt-6-luna | 2,143 | 40.2M | 1.0M | 100.4M | 0 | 71.4% | 740 | 8.9h |
 | gpt-5.6-sol | 68 | 790K | 17K | 9.4M | 0 | 92.3% | 2 | 1.1h |
 | claude-opus-5-5 | 8 | 0 | 0 | 0 | 0 | 0.0% | 8 | 0.0h |
 | gpt-6-astra | 5 | 95K | 2K | 0 | 0 | 0.0% | 5 | 0.0h |
-| **Total** | **163,276** | **453.7M** | **30.3M** | **16,684.9M** | **0** | **97.4%** | **4,286** | **662.8h** |
+| **Total** | **163,353** | **454.1M** | **30.3M** | **16,689.1M** | **0** | **97.4%** | **4,293** | **663.1h** |
 
-_17,169.0M total tokens processed. 97.4% cache hit rate._
+_17,173.6M total tokens processed. 97.4% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -73,6 +73,7 @@ _17,169.0M total tokens processed. 97.4% cache hit rate._
 - **[seoproanalytics](https://github.com/wpallstars/seoproanalytics)** (wpallstars) -- Actionable analytics: connect your content to the data that shows you how to grow. Private stats, search rankings and sales, no cookies.
 - **[seoprocookieconsent](https://github.com/wpallstars/seoprocookieconsent)** (wpallstars) -- SEO Pro Cookie Consent: the simplest, lightest cookie consent for WordPress. Blocks scripts until consent, geo-aware rules, themed embeds, editable policies. Free.
 - **[seoprostack](https://github.com/wpallstars/seoprostack)** (wpallstars) -- SEO Pro Stack: opt-in WordPress admin and workflow features plus curated plugin, theme, hosting and tool recommendations.
+- **[seoprostackcustom](https://github.com/wpallstars/seoprostackcustom)** (wpallstars) -- Your site's own changes, one file each, in your own repository, switched off when an SEO Pro Stack product does the same.
 - **[study](https://github.com/dbp-learn/study)** (dbp-learn) -- No description
 - **[task-manager](https://github.com/dbp-learn/task-manager)** (dbp-learn) -- tasks from learn.dualboot.ru
 - **[wp-fix-plugin-does-not-exist-notices](https://github.com/wpallstars/wp-fix-plugin-does-not-exist-notices)** (wpallstars) -- Fix the WordPress "Plugin file does not exist" / "has been deactivated due to an error" message. A small plugin that explains it on the Plugins screen and cleans up what deleted plugins leave behind.
@@ -103,7 +104,7 @@ _17,169.0M total tokens processed. 97.4% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-10 15:20 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-10 16:20 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
