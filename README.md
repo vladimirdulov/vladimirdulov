@@ -24,7 +24,7 @@
 | Worker/headless AI generation | 17.3h | 147.9h | 439.6h | 552.3h |
 | Additive observed work | 26.8h | 233.5h | 931.7h | 1,060.3h |
 | Interactive sessions | 5 | 24 | 183 | 214 |
-| Worker sessions | 304 | 1,502 | 4,109 | 4,663 |
+| Worker sessions | 311 | 1,509 | 4,116 | 4,670 |
 
 _Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (8.0 of 28 days sampled); earlier days are not counted. Latest sample measured: terminal input only; no desktop session on this host. *365-day estimate uses observed calendar coverage._
 
@@ -38,29 +38,29 @@ _AI session 365-day totals cover 36 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 143,989 | 353.9M | 26.4M | 15,107.1M | 0 | 97.7% | 3,070 | 578.5h |
-| gpt-6.1-terra | 10,266 | 43.9M | 1.4M | 740.3M | 0 | 94.4% | 546 | 37.5h |
-| gpt-6-luna | 2,391 | 43.1M | 1.0M | 106.8M | 0 | 71.2% | 866 | 9.9h |
+| gpt-6.1-sol | 144,008 | 353.8M | 26.4M | 15,112.7M | 0 | 97.7% | 3,069 | 579.0h |
+| gpt-6.1-terra | 10,296 | 44.0M | 1.4M | 741.6M | 0 | 94.4% | 548 | 37.7h |
+| gpt-6-luna | 2,393 | 43.1M | 1.0M | 106.8M | 0 | 71.2% | 868 | 9.9h |
 | gpt-5.6-sol | 381 | 1.6M | 67K | 55.9M | 0 | 97.2% | 3 | 2.8h |
 | claude-opus-5-5 | 10 | 0 | 0 | 0 | 0 | 0.0% | 10 | 0.0h |
 | gpt-6-astra | 4 | 76K | 2K | 0 | 0 | 0.0% | 4 | 0.0h |
-| **Total** | **157,041** | **442.7M** | **29.0M** | **16,010.2M** | **0** | **97.3%** | **4,321** | **628.8h** |
+| **Total** | **157,092** | **442.7M** | **29.0M** | **16,017.1M** | **0** | **97.3%** | **4,324** | **629.4h** |
 
-_16,482.0M total tokens processed. 97.3% cache hit rate._
+_16,489.0M total tokens processed. 97.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 164,845 | 414.7M | 30.1M | 17,122.1M | 0 | 97.6% | 3,593 | 676.7h |
-| gpt-6.1-terra | 10,266 | 43.9M | 1.4M | 740.3M | 0 | 94.4% | 546 | 37.5h |
-| gpt-6-luna | 2,451 | 45.0M | 1.0M | 108.2M | 0 | 70.6% | 884 | 10.1h |
+| gpt-6.1-sol | 164,935 | 414.8M | 30.2M | 17,131.3M | 0 | 97.6% | 3,596 | 677.5h |
+| gpt-6.1-terra | 10,296 | 44.0M | 1.4M | 741.6M | 0 | 94.4% | 548 | 37.7h |
+| gpt-6-luna | 2,453 | 45.1M | 1.0M | 108.2M | 0 | 70.6% | 886 | 10.2h |
 | gpt-5.6-sol | 387 | 1.7M | 68K | 56.3M | 0 | 97.0% | 4 | 2.9h |
 | claude-opus-5-5 | 10 | 0 | 0 | 0 | 0 | 0.0% | 10 | 0.0h |
 | gpt-6-astra | 5 | 95K | 2K | 0 | 0 | 0.0% | 5 | 0.0h |
-| **Total** | **177,964** | **505.5M** | **32.7M** | **18,027.0M** | **0** | **97.3%** | **4,849** | **727.3h** |
+| **Total** | **178,086** | **505.7M** | **32.7M** | **18,037.4M** | **0** | **97.3%** | **4,856** | **728.2h** |
 
-_18,565.3M total tokens processed. 97.3% cache hit rate._
+_18,576.0M total tokens processed. 97.3% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -104,7 +104,7 @@ _18,565.3M total tokens processed. 97.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-13 17:22 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-13 18:21 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
