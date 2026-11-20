@@ -24,7 +24,7 @@
 | Worker/headless AI generation | 6.5h | 72.3h | 456.0h | 624.6h |
 | Additive observed work | 8.0h | 102.3h | 963.3h | 1,162.6h |
 | Interactive sessions | 1 | 8 | 140 | 219 |
-| Worker sessions | 137 | 915 | 4,363 | 5,479 |
+| Worker sessions | 138 | 916 | 4,364 | 5,480 |
 
 _Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (15.0 of 28 days sampled); earlier days are not counted. *365-day estimate uses observed calendar coverage._
 
@@ -38,9 +38,9 @@ _AI session 365-day totals cover 43 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 136,419 | 332.2M | 25.0M | 14,517.5M | 0 | 97.8% | 2,788 | 561.0h |
+| gpt-6.1-sol | 136,418 | 332.2M | 25.0M | 14,517.5M | 0 | 97.8% | 2,787 | 561.0h |
 | gpt-6.1-terra | 16,874 | 69.0M | 2.3M | 1,188.1M | 0 | 94.5% | 884 | 72.4h |
-| gpt-6-luna | 2,991 | 50.6M | 1.1M | 139.3M | 0 | 73.3% | 1,101 | 12.1h |
+| gpt-6-luna | 2,992 | 50.7M | 1.1M | 139.3M | 0 | 73.3% | 1,102 | 12.1h |
 | gpt-5.6-sol | 319 | 934K | 50K | 46.8M | 0 | 98.0% | 2 | 1.8h |
 | claude-opus-5-5 | 13 | 0 | 0 | 0 | 0 | 0.0% | 13 | 0.0h |
 | gpt-6-astra | 4 | 76K | 2K | 0 | 0 | 0.0% | 4 | 0.0h |
@@ -54,13 +54,13 @@ _16,373.5M total tokens processed. 97.2% cache hit rate._
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-6.1-sol | 173,312 | 436.9M | 31.5M | 17,919.6M | 0 | 97.6% | 3,796 | 724.0h |
 | gpt-6.1-terra | 16,874 | 69.0M | 2.3M | 1,188.1M | 0 | 94.5% | 884 | 72.4h |
-| gpt-6-luna | 3,197 | 53.5M | 1.2M | 144.9M | 0 | 73.0% | 1,135 | 12.8h |
+| gpt-6-luna | 3,198 | 53.5M | 1.2M | 144.9M | 0 | 73.0% | 1,136 | 12.8h |
 | gpt-5.6-sol | 387 | 1.7M | 68K | 56.3M | 0 | 97.0% | 4 | 2.9h |
 | claude-opus-5-5 | 13 | 0 | 0 | 0 | 0 | 0.0% | 13 | 0.0h |
 | gpt-6-astra | 5 | 95K | 2K | 0 | 0 | 0.0% | 5 | 0.0h |
-| **Total** | **193,788** | **561.3M** | **35.1M** | **19,309.0M** | **0** | **97.2%** | **5,635** | **812.1h** |
+| **Total** | **193,789** | **561.3M** | **35.1M** | **19,309.0M** | **0** | **97.2%** | **5,636** | **812.2h** |
 
-_19,905.5M total tokens processed. 97.2% cache hit rate._
+_19,905.6M total tokens processed. 97.2% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -104,7 +104,7 @@ _19,905.5M total tokens processed. 97.2% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-20 16:41 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-20 17:41 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
