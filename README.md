@@ -1,5 +1,14 @@
 # vladimirdulov
 
+<!-- aidevops:badges:start -->
+<!-- managed by aidevops badges; edit the template, not this block -->
+
+[![Lines of code](docs/metrics/badges/loc.svg)](docs/metrics/repo-metrics.md)
+[![Dependencies](docs/metrics/badges/dependencies.svg)](docs/metrics/repo-metrics.md)
+
+[![Languages by lines of code](docs/metrics/badges/languages.svg)](docs/metrics/repo-metrics.md)
+<!-- aidevops:badges:end -->
+
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
