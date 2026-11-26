@@ -1,10 +1,10 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "vladimirdulov",
-  "updated": "2026-11-25",
-  "through": "2026-11-24",
+  "updated": "2026-11-26",
+  "through": "2026-11-25",
   "metric": "GitHub contributionCalendar.totalContributions",
-  "total": 7514,
+  "total": 7653,
   "months": [
     {
       "month": "2009-10",
@@ -1033,8 +1033,8 @@
     },
     {
       "month": "2026-11",
-      "total": 2454,
-      "cumulative": 7514
+      "total": 2593,
+      "cumulative": 7653
     }
   ]
 }
